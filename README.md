@@ -1,6 +1,6 @@
  Temperature Prediction using NASA CMAPSS Dataset
 
-## 📌 Project Overview
+##  Project Overview
 
 This project predicts **future rotor (engine) temperature** using historical multi-sensor time-series data from the **NASA CMAPSS Turbofan Engine Degradation Dataset**.
 
@@ -10,7 +10,7 @@ This project is designed as a **beginner-friendly but industry-relevant ML proje
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Predict the **average rotor temperature at time t** using sensor readings and operating conditions from **time t−1**.
 
@@ -18,7 +18,7 @@ This mirrors real-world **predictive maintenance** and **condition monitoring** 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **NASA CMAPSS Turbofan Engine Dataset (FD001)**
 
@@ -33,7 +33,7 @@ The dataset captures engine behavior from healthy operation until failure.
 
 ---
 
-## 🔧 Features Used
+## Features Used
 
 ### Inputs (X)
 
@@ -53,7 +53,7 @@ The dataset captures engine behavior from healthy operation until failure.
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 * **Linear Regression** (baseline)
 * **Random Forest Regressor**
@@ -62,7 +62,7 @@ Models were evaluated using a **time-aware train/test split** (no shuffling).
 
 ---
 
-## 📊 Evaluation Metric
+## Evaluation Metric
 
 * **RMSE (Root Mean Squared Error)**
 
@@ -75,7 +75,7 @@ These results indicate highly accurate temperature predictions with strong tempo
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 * Actual vs Predicted temperature over time
 * Residual (prediction error) plots
@@ -84,7 +84,7 @@ These results indicate highly accurate temperature predictions with strong tempo
 ---
 
 
-## 🗂 Project Structure
+## Project Structure
 
 * `data/` → Raw NASA dataset
 * `src/load_data.py` → Data loading
@@ -94,7 +94,7 @@ These results indicate highly accurate temperature predictions with strong tempo
 
 ---
 
-## 🚀 Key Learning Outcomes
+## Key Learning Outcomes
 
 * Time-series feature engineering using lag variables
 * Proper evaluation of temporal data
@@ -104,13 +104,7 @@ These results indicate highly accurate temperature predictions with strong tempo
 
 ---
 
-## 🧾 Resume Bullet
-
-> Built a machine learning regression pipeline using NASA CMAPSS turbofan sensor data to predict future rotor temperature, achieving RMSE ≈ 1.7 °C using time-series feature engineering and ensemble methods.
-
----
-
-## 📌 Future Improvements
+## Future Improvements
 
 * Gradient Boosting / XGBoost
 * LSTM-based deep learning model
@@ -119,9 +113,9 @@ These results indicate highly accurate temperature predictions with strong tempo
 
 ---
 
-## 👩‍💻 Author
+## Author
 
-Nodira S.
+Nodirabegim S.
 
 Machine Learning Project using Real NASA Data
 
