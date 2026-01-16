@@ -6,7 +6,6 @@ This project predicts **future rotor (engine) temperature** using historical mul
 
 The goal is to demonstrate a **complete machine learning workflow** for time-series regression, including data loading, feature engineering, model training, evaluation, visualization, and interpretation.
 
-This project is designed as a **beginner-friendly but industry-relevant ML project**.
 
 ---
 
